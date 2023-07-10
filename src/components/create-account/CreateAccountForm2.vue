@@ -16,6 +16,10 @@
       </ion-item>
     </ion-list>
     <base-button>Create Account</base-button>
+    <p class="terms">
+      By creating an account you agree to our
+      <span>Terms and Conditions</span> and <span>Privacy Policy</span>
+    </p>
   </form>
 </template>
   
@@ -71,7 +75,17 @@ p.otp {
   cursor: pointer;
 }
 
-/* .input-content.otp :deep(.native-input) {
-  padding: 0.5rem 4rem;
-} */
+p.terms {
+  color: #1d2129;
+  text-align: center;
+  font-family: var(--ion-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p.terms span {
+  color: var(--ion-text-color-primary-contrast);
+}
 </style>
