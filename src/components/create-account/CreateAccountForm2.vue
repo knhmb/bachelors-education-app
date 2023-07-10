@@ -17,7 +17,7 @@
     </ion-list>
     <base-button>Create Account</base-button>
     <p class="terms">
-      By creating an account you agree to our
+      By creating an account you agree to our <br />
       <span>Terms and Conditions</span> and <span>Privacy Policy</span>
     </p>
   </form>
@@ -83,6 +83,7 @@ p.terms {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 1.5rem;
 }
 
 p.terms span {
