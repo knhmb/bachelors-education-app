@@ -15,6 +15,8 @@ ion-input {
   border-radius: 500px;
   border: 1px solid var(--ion-color-primary);
   background: var(--ion-color-primary-contrast);
+  --placeholder-color: var(--ion-text-color-secondary) !important;
+  --placeholder-font-style: var(--ion-font-family);
 }
 
 ion-item {

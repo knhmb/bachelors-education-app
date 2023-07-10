@@ -78,6 +78,8 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-tint: #f5f6f9;
 
   --ion-text-color-primary: #1d2129;
+  --ion-text-color-secondary: #c9cdd4;
+  --ion-font-family: Montserrat;
 }
 
 @media (prefers-color-scheme: dark) {
