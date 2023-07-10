@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+ion-toolbar {
+  --background: var(--ion-color-primary);
+  --color: var(--ion-color-primary-contrast);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+ion-input {
+  border-radius: 500px;
+  border: 1px solid var(--ion-color-primary);
+  background: var(--ion-color-primary-contrast);
+}
+
+ion-item {
+  margin-bottom: 1rem;
+}
