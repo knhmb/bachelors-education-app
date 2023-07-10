@@ -1,16 +1,16 @@
 <template>
-  <base-layout class="create-account" page-title="Create Account">
-    <h3>Please enter your details</h3>
-    <create-account-form></create-account-form>
+  <base-layout page-title="Create Account" page-back-link="/create-account">
+    <h3>Please enter your email address We will send your the OTP via email</h3>
+    <create-account-form-2></create-account-form-2>
   </base-layout>
 </template>
 
 <script>
-import CreateAccountForm from "../components/create-account/CreateAccountForm.vue";
+import CreateAccountForm2 from "../components/create-account/CreateAccountForm2.vue";
 
 export default {
   components: {
-    CreateAccountForm,
+    CreateAccountForm2,
   },
 };
 </script>

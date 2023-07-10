@@ -25,11 +25,13 @@ import "./theme/variables.css";
 import "./theme/core.css";
 
 import BaseLayout from "./components/base/BaseLayout.vue";
+import BaseInput from "./components/base/BaseInput.vue";
 import BaseButton from "./components/base/BaseButton.vue";
 
 const app = createApp(App).use(IonicVue).use(router);
 
 app.component("base-layout", BaseLayout);
+app.component("base-input", BaseInput);
 app.component("base-button", BaseButton);
 
 router.isReady().then(() => {

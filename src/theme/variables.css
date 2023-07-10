@@ -4,6 +4,7 @@ http://ionicframework.com/docs/theming/ */
 /** Ionic CSS Variables **/
 :root {
   --ion-background-color: #f5f6ff;
+  --ion-toolbar-color: var(--ion-color-primary-contrast);
 
   /** primary **/
   --ion-color-primary: #171c61;
@@ -79,6 +80,7 @@ http://ionicframework.com/docs/theming/ */
 
   --ion-text-color-primary: #1d2129;
   --ion-text-color-secondary: #c9cdd4;
+  --ion-text-color-primary-contrast: #165dff;
   --ion-font-family: Montserrat;
 }
 

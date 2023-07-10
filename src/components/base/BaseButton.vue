@@ -1,23 +1,20 @@
 <template>
-  <ion-input></ion-input>
+  <ion-button expand="block" shape="round"><slot /></ion-button>
 </template>
 
 <script>
-import { IonInput } from "@ionic/vue";
+import { IonButton } from "@ionic/vue";
 
 export default {
   components: {
-    IonInput,
+    IonButton,
   },
 };
 </script>
 
 <style scoped>
-:deep(.native-input) {
-  padding: 0rem 2.5rem;
-}
-
-.sc-ion-input-md-h:not(.legacy-input) {
+ion-button {
   min-height: 50px;
+  --box-shadow: none;
 }
 </style>
