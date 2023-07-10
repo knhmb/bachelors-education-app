@@ -111,4 +111,8 @@ ion-item {
 ion-button {
   min-height: 50px;
 }
+
+ion-button {
+  --box-shadow: none;
+}
 </style>
