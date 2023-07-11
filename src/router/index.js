@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "@ionic/vue-router";
 
 import CreateAccount from "../pages/CreateAccount.vue";
+import Tabs from "../components/Tabs.vue";
 
 const routes = [
   {
@@ -26,6 +27,16 @@ const routes = [
     path: "/forgot-password",
     name: "ForgotPassword",
     component: () => import("../pages/ForgotPassword.vue"),
+  },
+  {
+    path: "/tabs/",
+    component: Tabs,
+    children: [
+      {
+        path: "tab1",
+        component: () => import("../pages/CreateAccount.vue"),
+      },
+    ],
   },
 ];
 

@@ -13,6 +13,7 @@
     </ion-header>
     <ion-content class="ion-padding">
       <slot />
+      <Tabs />
     </ion-content>
   </ion-page>
 </template>
@@ -27,6 +28,7 @@ import {
   IonButtons,
   IonBackButton,
 } from "@ionic/vue";
+import Tabs from "../Tabs.vue";
 
 export default {
   props: ["pageTitle", "pageBackLink", "hide"],
@@ -38,6 +40,7 @@ export default {
     IonContent,
     IonButtons,
     IonBackButton,
+    Tabs,
   },
 };
 </script>

@@ -13,6 +13,10 @@ ion-toolbar {
   padding-left: 16px;
 }
 
+ion-content {
+  z-index: 100;
+}
+
 ion-input {
   border-radius: 500px;
   border: 1px solid var(--ion-color-primary);
