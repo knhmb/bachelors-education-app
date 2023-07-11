@@ -3,7 +3,7 @@
     <ion-list>
       <ion-item lines="none">
         <div class="input-content">
-          <base-input placeholder="Username"></base-input>
+          <base-input placeholder="Username" required></base-input>
           <ion-icon type="text" slot="start" :icon="personOutline"></ion-icon>
         </div>
       </ion-item>

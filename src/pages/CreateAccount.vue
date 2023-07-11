@@ -1,5 +1,9 @@
 <template>
-  <base-layout class="create-account" page-title="Create Account">
+  <base-layout
+    class="create-account"
+    page-title="Create Account"
+    page-back-link="/login"
+  >
     <h3>Please enter your details</h3>
     <create-account-form></create-account-form>
   </base-layout>

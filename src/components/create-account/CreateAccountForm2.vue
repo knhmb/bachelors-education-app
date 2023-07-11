@@ -15,7 +15,7 @@
         </div>
       </ion-item>
     </ion-list>
-    <base-button>Create Account</base-button>
+    <base-button router-link="/login">Create Account</base-button>
     <p class="terms">
       By creating an account you agree to our <br />
       <span>Terms and Conditions</span> and <span>Privacy Policy</span>

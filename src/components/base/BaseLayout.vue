@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <ion-header>
+    <ion-header :class="{ 'is-hidden': hide }">
       <ion-toolbar>
         <ion-buttons slot="start">
           <ion-back-button
@@ -29,7 +29,7 @@ import {
 } from "@ionic/vue";
 
 export default {
-  props: ["pageTitle", "pageBackLink"],
+  props: ["pageTitle", "pageBackLink", "hide"],
   components: {
     IonPage,
     IonHeader,
@@ -41,3 +41,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.is-hidden {
+  display: none;
+}
+</style>

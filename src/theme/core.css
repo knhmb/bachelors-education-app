@@ -9,7 +9,8 @@ ion-toolbar {
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
-  padding-inline-start: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 ion-input {

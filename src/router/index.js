@@ -5,7 +5,7 @@ import CreateAccount from "../pages/CreateAccount.vue";
 const routes = [
   {
     path: "/",
-    redirect: "/create-account",
+    redirect: "/login",
   },
   {
     path: "/create-account",
@@ -16,6 +16,16 @@ const routes = [
     path: "/create-account-2",
     name: "CreateAccount2",
     component: () => import("../pages/CreateAccount2.vue"),
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: () => import("../pages/Login.vue"),
+  },
+  {
+    path: "/forgot-password",
+    name: "ForgotPassword",
+    component: () => import("../pages/ForgotPassword.vue"),
   },
 ];
 
