@@ -10,8 +10,8 @@
         <ion-icon :icon="easelOutline"></ion-icon>
         Course
       </ion-tab-button>
-      <ion-tab-button tab="reservation" href="/forgot-password">
-        <ion-icon :icon="library"></ion-icon>
+      <ion-tab-button tab="reservation" href="/reservation">
+        <ion-icon :icon="calendarOutline"></ion-icon>
         Reservation
       </ion-tab-button>
       <ion-tab-button tab="account" href="/create-account">
@@ -33,7 +33,7 @@ import {
 import {
   volumeMediumOutline,
   easelOutline,
-  library,
+  calendarOutline,
   search,
 } from "ionicons/icons";
 
@@ -49,7 +49,7 @@ export default {
     return {
       volumeMediumOutline,
       easelOutline,
-      library,
+      calendarOutline,
       search,
     };
   },
