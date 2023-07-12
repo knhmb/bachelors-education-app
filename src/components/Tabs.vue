@@ -6,8 +6,8 @@
         <ion-icon :icon="volumeMediumOutline"></ion-icon>
         News
       </ion-tab-button>
-      <ion-tab-button tab="course" href="/login">
-        <ion-icon :icon="radio"></ion-icon>
+      <ion-tab-button tab="course" href="/course">
+        <ion-icon :icon="easelOutline"></ion-icon>
         Course
       </ion-tab-button>
       <ion-tab-button tab="reservation" href="/forgot-password">
@@ -30,7 +30,12 @@ import {
   IonIcon,
   IonRouterOutlet,
 } from "@ionic/vue";
-import { volumeMediumOutline, radio, library, search } from "ionicons/icons";
+import {
+  volumeMediumOutline,
+  easelOutline,
+  library,
+  search,
+} from "ionicons/icons";
 
 export default {
   components: {
@@ -43,7 +48,7 @@ export default {
   data() {
     return {
       volumeMediumOutline,
-      radio,
+      easelOutline,
       library,
       search,
     };

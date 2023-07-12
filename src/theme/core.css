@@ -39,6 +39,7 @@ ion-card {
   margin-right: 0;
 }
 
-ion-card-content {
+ion-card-content,
+ion-card-header {
   padding: 0.7rem !important;
 }

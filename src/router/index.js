@@ -39,6 +39,16 @@ const routes = [
     component: () => import("../pages/NewsDetail.vue"),
   },
   {
+    path: "/course",
+    name: "Course",
+    component: () => import("../pages/Course.vue"),
+  },
+  {
+    path: "/course/:id",
+    name: "CourseDetail",
+    component: () => import("../pages/CourseDetail.vue"),
+  },
+  {
     path: "/tabs/",
     component: Tabs,
     children: [
