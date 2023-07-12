@@ -1,5 +1,10 @@
 <template>
-  <base-layout page-title="Forgot Password" page-back-link="/login">
+  <base-layout
+    :add-padding="true"
+    page-title="Forgot Password"
+    page-back-link="/login"
+    :hide-footer="true"
+  >
     <p>Please enter your email address We will send your the OTP via email</p>
     <forgot-password-form></forgot-password-form>
   </base-layout>

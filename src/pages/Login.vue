@@ -1,6 +1,6 @@
 <template>
-  <base-layout :hide="true">
-    <ion-img src="../../public/assets/image-1.png"></ion-img>
+  <base-layout :hide-header="true" :hide-footer="true" :add-padding="true">
+    <ion-img src="/assets/image-1.png"></ion-img>
     <p>Login to your account</p>
     <login-form></login-form>
   </base-layout>

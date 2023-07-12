@@ -19,7 +19,7 @@
         </p>
       </ion-item>
       <ion-item>
-        <base-button>Login</base-button>
+        <base-button router-link="/news">Login</base-button>
       </ion-item>
       <ion-item lines="none">
         <base-button class="account-btn" router-link="/create-account"

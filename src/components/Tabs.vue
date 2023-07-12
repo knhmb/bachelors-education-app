@@ -2,7 +2,7 @@
   <ion-tabs>
     <ion-router-outlet></ion-router-outlet>
     <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="news" href="/create-account">
+      <ion-tab-button tab="news" href="/news">
         <ion-icon :icon="volumeMediumOutline"></ion-icon>
         News
       </ion-tab-button>
@@ -53,7 +53,7 @@ export default {
 
 <style scoped>
 ion-tabs {
-  z-index: -1 !important;
+  z-index: 9999 !important;
 }
 
 ion-tab-button {
@@ -63,6 +63,7 @@ ion-tab-button {
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
+  background: var(--ion-color-primary-contrast);
 }
 
 ion-tab-button.tab-selected {

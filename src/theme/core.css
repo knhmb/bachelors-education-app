@@ -13,6 +13,10 @@ ion-toolbar {
   padding-left: 16px;
 }
 
+ion-toolbar.footer-toolbar {
+  --background: var(--ion-color-primary-contrast);
+}
+
 ion-content {
   z-index: 100;
 }
@@ -27,4 +31,14 @@ ion-input {
 
 ion-item {
   margin-bottom: 1rem;
+}
+
+ion-card {
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+ion-card-content {
+  padding: 0.7rem !important;
 }

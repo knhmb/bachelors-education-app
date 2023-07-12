@@ -1,5 +1,10 @@
 <template>
-  <base-layout page-title="Create Account" page-back-link="/create-account">
+  <base-layout
+    :add-padding="true"
+    page-title="Create Account"
+    page-back-link="/create-account"
+    :hide-footer="true"
+  >
     <h3>Please enter your email address We will send your the OTP via email</h3>
     <create-account-form-2></create-account-form-2>
   </base-layout>

@@ -29,6 +29,16 @@ const routes = [
     component: () => import("../pages/ForgotPassword.vue"),
   },
   {
+    path: "/news",
+    name: "News",
+    component: () => import("../pages/News.vue"),
+  },
+  {
+    path: "/news/:id",
+    name: "NewsDetail",
+    component: () => import("../pages/NewsDetail.vue"),
+  },
+  {
     path: "/tabs/",
     component: Tabs,
     children: [
