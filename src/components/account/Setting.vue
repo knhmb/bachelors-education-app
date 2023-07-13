@@ -26,12 +26,13 @@
 </template>
 
 <script>
-import { IonIcon } from "@ionic/vue";
+import { IonIcon, IonCard } from "@ionic/vue";
 import { chevronForwardOutline } from "ionicons/icons";
 
 export default {
   components: {
     IonIcon,
+    IonCard,
   },
   data() {
     return {

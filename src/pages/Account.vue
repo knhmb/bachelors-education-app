@@ -6,15 +6,15 @@
   >
     <small>Personal</small>
     <ion-card>
-      <div class="item">
+      <div class="item" @click="$router.push('/edit-profile')">
         <p>Edit Profile</p>
         <ion-icon :icon="chevronForwardOutline"></ion-icon>
       </div>
-      <div class="item">
+      <div class="item" @click="$router.push('/change-password')">
         <p>Change Password</p>
         <ion-icon :icon="chevronForwardOutline"></ion-icon>
       </div>
-      <div class="item">
+      <div class="item" @click="$router.push('/reservation-history')">
         <p>Reservation History</p>
         <ion-icon :icon="chevronForwardOutline"></ion-icon>
       </div>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { IonIcon } from "@ionic/vue";
+import { IonIcon, IonCard } from "@ionic/vue";
 import { chevronForwardOutline } from "ionicons/icons";
 import Setting from "../components/account/Setting.vue";
 
@@ -32,6 +32,7 @@ export default {
   components: {
     IonIcon,
     Setting,
+    IonCard,
   },
   data() {
     return {

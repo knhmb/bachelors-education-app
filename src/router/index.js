@@ -59,6 +59,21 @@ const routes = [
     component: () => import("../pages/Account.vue"),
   },
   {
+    path: "/edit-profile",
+    name: "EditProfile",
+    component: () => import("../pages/EditProfile.vue"),
+  },
+  {
+    path: "/change-password",
+    name: "ChangePassword",
+    component: () => import("../pages/ChangePassword.vue"),
+  },
+  {
+    path: "/reservation-history",
+    name: "ReservationHistory",
+    component: () => import("../pages/ReservationHistory.vue"),
+  },
+  {
     path: "/tabs/",
     component: Tabs,
     children: [
