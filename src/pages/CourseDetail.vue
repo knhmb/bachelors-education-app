@@ -19,6 +19,16 @@
     </div>
   </base-layout>
 </template>
+
+<script>
+import { IonImg } from "@ionic/vue";
+
+export default {
+  components: {
+    IonImg,
+  },
+};
+</script>
   
   <style scoped>
 .course-content {

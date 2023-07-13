@@ -14,8 +14,8 @@
         <ion-icon :icon="calendarOutline"></ion-icon>
         Reservation
       </ion-tab-button>
-      <ion-tab-button tab="account" href="/create-account">
-        <ion-icon :icon="search"></ion-icon>
+      <ion-tab-button tab="account" href="/account">
+        <ion-icon :icon="personOutline"></ion-icon>
         Account
       </ion-tab-button>
     </ion-tab-bar>
@@ -34,7 +34,7 @@ import {
   volumeMediumOutline,
   easelOutline,
   calendarOutline,
-  search,
+  personOutline,
 } from "ionicons/icons";
 
 export default {
@@ -50,7 +50,7 @@ export default {
       volumeMediumOutline,
       easelOutline,
       calendarOutline,
-      search,
+      personOutline,
     };
   },
 };

@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import { IonSelect } from "@ionic/vue";
+import { IonSelect, IonImg, IonButton } from "@ionic/vue";
 import { chevronDownOutline } from "ionicons/icons";
 import Dialog from "../components/reservation/Dialog.vue";
 
@@ -49,6 +49,8 @@ export default {
   components: {
     Dialog,
     IonSelect,
+    IonImg,
+    IonButton,
   },
   data() {
     return {

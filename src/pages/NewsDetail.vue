@@ -13,6 +13,16 @@
   </base-layout>
 </template>
 
+<script>
+import { IonImg } from "@ionic/vue";
+
+export default {
+  components: {
+    IonImg,
+  },
+};
+</script>
+
 <style scoped>
 .news-content {
   padding-left: 1.5rem;

@@ -54,6 +54,11 @@ const routes = [
     component: () => import("../pages/Reservation.vue"),
   },
   {
+    path: "/account",
+    name: "Account",
+    component: () => import("../pages/Account.vue"),
+  },
+  {
     path: "/tabs/",
     component: Tabs,
     children: [

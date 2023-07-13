@@ -14,11 +14,12 @@
 </template>
 
 <script>
-import { IonModal } from "@ionic/vue";
+import { IonModal, IonButton } from "@ionic/vue";
 
 export default {
   components: {
     IonModal,
+    IonButton,
   },
 };
 </script>
