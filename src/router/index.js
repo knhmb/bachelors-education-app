@@ -74,6 +74,16 @@ const routes = [
     component: () => import("../pages/ReservationHistory.vue"),
   },
   {
+    path: "/privacy-policy",
+    name: "PrivacyPolicy",
+    component: () => import("../pages/PrivacyPolicy.vue"),
+  },
+  {
+    path: "/terms-conditions",
+    name: "TermsConditions",
+    component: () => import("../pages/TermsConditions.vue"),
+  },
+  {
     path: "/tabs/",
     component: Tabs,
     children: [

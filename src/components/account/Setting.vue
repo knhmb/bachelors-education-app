@@ -1,11 +1,11 @@
 <template>
   <small>Setting</small>
   <ion-card>
-    <div class="item">
+    <div class="item" @click="$router.push('/privacy-policy')">
       <p>Privacy Policy</p>
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
-    <div class="item">
+    <div class="item" @click="$router.push('/terms-conditions')">
       <p>Terms & Conditions</p>
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
