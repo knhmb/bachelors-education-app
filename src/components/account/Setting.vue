@@ -22,17 +22,20 @@
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
   </ion-card>
-  <base-button>Delete Account</base-button>
+  <base-button id="open-delete-dialog">Delete Account</base-button>
+  <delete-account-dialog></delete-account-dialog>
 </template>
 
 <script>
 import { IonIcon, IonCard } from "@ionic/vue";
 import { chevronForwardOutline } from "ionicons/icons";
+import DeleteAccountDialog from "./DeleteAccountDialog.vue";
 
 export default {
   components: {
     IonIcon,
     IonCard,
+    DeleteAccountDialog,
   },
   data() {
     return {
