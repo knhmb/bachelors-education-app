@@ -84,6 +84,16 @@ const routes = [
     component: () => import("../pages/TermsConditions.vue"),
   },
   {
+    path: "/about-us",
+    name: "AboutUs",
+    component: () => import("../pages/AboutUs.vue"),
+  },
+  {
+    path: "/contact-us",
+    name: "ContactUs",
+    component: () => import("../pages/ContactUs.vue"),
+  },
+  {
     path: "/tabs/",
     component: Tabs,
     children: [

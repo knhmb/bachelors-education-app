@@ -1,5 +1,5 @@
 <template>
-  <base-layout page-title="Course" :add-padding="true" page-back-link="/news">
+  <base-layout page-title="Course" :add-padding="true" :hide-back-button="true">
     <div class="pills-content">
       <div
         class="pills"

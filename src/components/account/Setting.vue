@@ -9,15 +9,15 @@
       <p>Terms & Conditions</p>
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
-    <div class="item">
+    <div class="item" @click="$router.push('/about-us')">
       <p>About Us</p>
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
-    <div class="item">
+    <div class="item" @click="$router.push('/contact-us')">
       <p>Contact Us</p>
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
-    <div class="item">
+    <div class="item" @click="$router.push('/login')">
       <p>Logout</p>
       <ion-icon :icon="chevronForwardOutline"></ion-icon>
     </div>
@@ -101,7 +101,8 @@ ion-icon {
   color: #c9cdd4;
 }
 
-ion-button::part(native) {
-  background: #f53f3f;
+ion-button {
+  --background: #f53f3f;
+  --background-activated: #eb7b7bc7;
 }
 </style>
