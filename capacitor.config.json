@@ -1,0 +1,16 @@
+{
+  "appId": "com.marvelconnect.bachelorseducation",
+  "appName": "Bachelors Education",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "public",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

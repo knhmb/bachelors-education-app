@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Bachelors Education</string>
+    <string name="title_activity_main">Bachelors Education</string>
+    <string name="package_name">com.marvelconnect.bachelorseducation</string>
+    <string name="custom_url_scheme">com.marvelconnect.bachelorseducation</string>
+</resources>
